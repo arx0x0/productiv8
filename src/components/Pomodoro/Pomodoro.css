@@ -26,3 +26,7 @@ body {
   min-height: 1.3em;
   margin-top: 5rem;
 }
+
+.bold-head {
+  font-weight: 900;
+}

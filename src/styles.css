@@ -39,6 +39,7 @@ footer p {
 }
 .note {
   background: #fff;
+  color: black;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
@@ -130,3 +131,8 @@ form.create-note button {
 .move-down {
   margin-top: 12rem;
 }
+
+.bold-head {
+  font-weight: 900;
+}
+
