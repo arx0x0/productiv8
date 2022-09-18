@@ -6,15 +6,6 @@ import CreateArea from "./CreateArea";
 import Pomodoro from  './Pomodoro/Pomodoro';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
-const useStyles = makeStyles((theme) => ({
-  deleteIcon1: {
-    '& svg': {
-      fontSize: 50
-    }
-  }
-}));
-
-
 const App = () => {
 
   const [notesArray, setNotesArray] = useState([]); 
@@ -28,9 +19,7 @@ const App = () => {
     })
   }
 
-  //Step 6b
   const deleteNote = (id) => {
-    //Step 6c, filtering the array for array entries with indexes that do not match the id of entry that got clicked
     setNotesArray(prevNotes => {
       return prevNotes.filter((noteItem, index) => {
         return index !== id; //Returning only the values at indexes where the id does not match the one clicked
@@ -38,6 +27,7 @@ const App = () => {
     })
   }
 
+  //Click handler that signals the pomodoro component to render, else display the button
   const startClick = (event) => {
     setPomoStart(true);
   }
@@ -56,11 +46,9 @@ const App = () => {
                 return (
                   <Note
                     key={index}
-                    //Step 6d
                     id={index}
                     title={noteItem.title}
                     content={noteItem.content}
-                    //Step 6b
                     onDelete={deleteNote}
                   />
                 );
