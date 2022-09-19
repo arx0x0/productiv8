@@ -37,5 +37,12 @@
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arx0x0/productiv8.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arx0x0/productiv8/issues"
+  },
   "description": ""
 }

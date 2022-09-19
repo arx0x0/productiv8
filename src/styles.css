@@ -115,8 +115,8 @@ form.create-note button {
 
 .mine {
   background-color: black;
-  width: 500px;
-  height: 500px;
+  width: 50vh;
+  height: 60vh;
   text-align: center;
 }
 

@@ -40,7 +40,7 @@ const App = () => {
 
         <div className="main-div-item">
 
-          <CreateArea onAdd={addNote} />
+          <CreateArea className="main-div-item" onAdd={addNote} />
 
             {notesArray.map((noteItem, index) => {
                 return (
@@ -54,7 +54,6 @@ const App = () => {
                 );
             })}
         </div>
-
 
         <div className="mine main-div-item">
             {!pomoStart 

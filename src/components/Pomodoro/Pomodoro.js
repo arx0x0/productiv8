@@ -3,8 +3,8 @@ import "./Pomodoro.css"
 
 const Pomodoro = () => {
 
-    const [min, setMin] = useState(25);
-    const [sec, setSec] = useState(0);
+    const [min, setMin] = useState(0);
+    const [sec, setSec] = useState(5);
     const [message, setMessage] = useState(false);
 
     useEffect(() => {
