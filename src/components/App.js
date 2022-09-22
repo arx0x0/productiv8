@@ -32,6 +32,10 @@ const App = () => {
     setPomoStart(true);
   }
 
+  const handleKeyPress = (event) => {
+    event.preventDefault(); 
+  }
+
   return (
     <div>
        <Header />
@@ -40,7 +44,7 @@ const App = () => {
 
         <div className="main-div-item">
 
-          <CreateArea className="main-div-item" onAdd={addNote} />
+          <CreateArea className="main-div-item" onAdd={addNote}/>
 
             {notesArray.map((noteItem, index) => {
                 return (

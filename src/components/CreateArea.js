@@ -44,6 +44,12 @@ const CreateArea = (props) => {
     const expand = (event) => {
       setExpanded(true);
     }
+
+    const handleKeyPress = (event) => {
+      if(event.key === 'Enter'){
+        event.preventDefault();
+      }
+    }
   
     return (
       <div>
@@ -53,6 +59,7 @@ const CreateArea = (props) => {
 
               <input
               name="title"
+              onKeyPress={handleKeyPress}
               onChange={handleChange}
               value={note.title}
               placeholder="Title"
@@ -65,6 +72,7 @@ const CreateArea = (props) => {
             name="content"
             onChange={handleChange}
             onClick={expand}
+            onKeyPress={handleKeyPress}
             value={note.content}
             placeholder="Take a note..."
             rows={isExpanded ? 3: 1}

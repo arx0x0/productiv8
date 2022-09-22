@@ -5,6 +5,8 @@ import App from "./components/App"
 import "./styles.css"
 
 //2. Create a App.jsx component.
+
+
 ReactDOM.render(<App />, document.getElementById("root"));
 
 
