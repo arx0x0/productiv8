@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <footer className="fixed-down">
       <p>{ currentDate }</p>
+      <a href="https://github.com/arx0x0/productiv8" target="_blank">Source Code</a>
     </footer>
   );
 }
