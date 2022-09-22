@@ -28,12 +28,8 @@ const App = () => {
   }
 
   //Click handler that signals the pomodoro component to render, else display the button
-  const startClick = (event) => {
+  const startClick = () => {
     setPomoStart(true);
-  }
-
-  const handleKeyPress = (event) => {
-    event.preventDefault(); 
   }
 
   return (
