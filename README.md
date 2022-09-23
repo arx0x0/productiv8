@@ -27,7 +27,7 @@ https://arx0x0.github.io/productiv8/
 
 ## Built With
 
-* [React](https://reactjs.org/) - Used to create components, implemented State and its mutators with hooks for the main purpose of conditionally render certain components
+* [React](https://reactjs.org/) - Used to create components, implemented State and its mutators with hooks for the main purpose of conditionally rendering certain components
 * [Materials-UI](https://mui.com/) - Implemented Core UI and UX features and functionality, such as buttons / icons, zoom for textarea expansion.
 
 ## Authors
