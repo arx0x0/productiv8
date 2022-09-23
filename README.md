@@ -1,6 +1,6 @@
 # Productiv8
 
-Productivity app with an integrated note functionality with client side to do list type functionality. Also a pomodoro timer component, which activates upon clicking the orange play button.
+Productivity app with an integrated note functionality with client side to do list type functionality, as well as a pomodoro timer component, which activates upon clicking the orange play button.
 
 ![image](https://user-images.githubusercontent.com/93293461/191891566-41b67bfe-b705-499e-9bba-b14f08967855.png)
 
@@ -27,8 +27,8 @@ https://arx0x0.github.io/productiv8/
 
 ## Built With
 
-* [React](http://www.dropwizard.io/1.0.2/docs/) - Used to create components, implemented State and its mutators with hooks for the main purpose of conditionally render certain components
-* [Materials-UI](https://maven.apache.org/) - Implemented Core UI and UX features and functionality, such as buttons / icons, zoom for textarea expansion.
+* [React](https://reactjs.org/) - Used to create components, implemented State and its mutators with hooks for the main purpose of conditionally render certain components
+* [Materials-UI](https://mui.com/) - Implemented Core UI and UX features and functionality, such as buttons / icons, zoom for textarea expansion.
 
 ## Authors
 
