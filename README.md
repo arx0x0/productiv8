@@ -2,6 +2,8 @@
 
 Productivity app with an integrated note functionality with client side to do list type functionality. Also a pomodoro timer component, which activates upon clicking the orange play button.
 
+![image](https://user-images.githubusercontent.com/93293461/191891566-41b67bfe-b705-499e-9bba-b14f08967855.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for developmen See deployment for notes on how to deploy the project on a live system.
