@@ -8,15 +8,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 ```
-cd into desktop or where appropriate
+1) cd into desktop or where appropriate
 ```
 
 ```
-git clone the repo's link (can be found by clicking on green code button).
+2) git clone the repo's link (can be found by clicking on green code button).
 ```
 
 ```
-npm start (make sure you are cd'd into the Productiv8 directory)
+3) npm start (make sure you are cd'd into the Productiv8 directory)
 ```
 
 ## Deployment
