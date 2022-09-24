@@ -1,6 +1,6 @@
 # Productiv8
 
-Productivity app with an integrated note functionality with client side to do list type functionality, as well as a pomodoro timer component, which activates upon clicking the orange play button.
+Productivity app with an integrated note functionality with client side to do list like functionality, as well as a pomodoro timer component, which activates upon clicking the orange play button.
 
 ![image](https://user-images.githubusercontent.com/93293461/191891566-41b67bfe-b705-499e-9bba-b14f08967855.png)
 
